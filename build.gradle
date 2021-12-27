@@ -43,6 +43,9 @@ dependencies {
     //oauth
     implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
 
+    //database session repository
+    implementation('org.springframework.session:spring-session-jdbc')
+
 //    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
 //    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
